@@ -1,0 +1,1 @@
+sudo singularity exec -B <host_path>:<image_path> my_img.sif filterSequences.py -i input.fa -o output.fa
